@@ -1,0 +1,9 @@
+.grid {
+  @apply flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-white hover:border-blue-600 dark:bg-black;
+}
+.active {
+  @apply border-2 border-blue-600;
+}
+.inactive {
+  @apply border-neutral-200 dark:border-neutral-800;
+}
